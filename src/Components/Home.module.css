@@ -1,3 +1,6 @@
+.first-section {
+  margin-bottom: 7.5rem;
+}
 .first-section .title {
   font-size: 4.8rem;
   line-height: 4.8rem;
@@ -38,7 +41,8 @@
 /* Images */
 .keyboard,
 .glass-and-keyboard,
-.phone-and-keyboard {
+.phone-and-keyboard,
+.layer {
   border-radius: 2rem;
 }
 .keyboard {
@@ -46,17 +50,61 @@
   width: 37.2rem;
   margin-bottom: 2.4rem;
 }
-.glass-and-keyboard {
-  height: 19.3rem;
-  width: 22rem;
-}
 .phone-and-keyboard {
   height: 19.3rem;
   width: 12.9rem;
+}
+.glass-and-keyboard {
+  height: 19.3rem;
+  width: 22rem;
 }
 .column-images {
   display: flex;
   flex-direction: row-reverse;
   column-gap: 2.4rem;
-  margin-bottom: 7.5rem;
+}
+.image-layer {
+  position: relative;
+}
+.image-layer img {
+  opacity: 0.75;
+}
+.column-images .layer {
+  position: absolute;
+  background-color: var(--first-color);
+  mix-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  height: 19.3rem;
+  width: 12.9rem;
+}
+/* Second Section */
+.second-section .text-content {
+  text-align: center;
+  margin-bottom: 11.1rem;
+}
+.second-section .title {
+  color: var(--third-color);
+  margin-bottom: 2.4rem;
+}
+.second-section .text {
+  color: var(--fourth-color);
+}
+.second-section .features-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6.4rem;
+  margin-bottom: 9.6rem;
+}
+/* Footer */
+.footer {
+  margin-bottom: 2.6rem;
+}
+.footer p {
+  text-align: center;
+  color: var(--fourth-color);
+  font-weight: 700;
+}
+.footer p span {
+  font-weight: 500;
 }

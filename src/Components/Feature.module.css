@@ -1,0 +1,21 @@
+.feature {
+  text-align: center;
+}
+.icon-container {
+  background-color: var(--first-color);
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 4.8rem;
+}
+.feature .title {
+  color: var(--third-color);
+  width: 20rem;
+  margin: 0 auto 2.4rem;
+}
+.feature .text {
+  color: var(--fourth-color);
+}
