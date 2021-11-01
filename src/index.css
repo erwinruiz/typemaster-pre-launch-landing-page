@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap");
 
 :root {
   --first-color: rgb(241, 103, 24);
@@ -24,6 +24,8 @@ body {
   font-weight: 500;
   line-height: 2.6rem;
   margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 /* Globals */

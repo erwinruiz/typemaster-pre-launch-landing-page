@@ -1,7 +1,10 @@
+import classes from './App.module.css';
+import Header from "./Components/Header";
+
 function App() {
   return (
-    <div>
-      <h1>typemaster-pre-launch-landing-page</h1>
+    <div className={classes.container}>
+      <Header />
     </div>
   );
 }
