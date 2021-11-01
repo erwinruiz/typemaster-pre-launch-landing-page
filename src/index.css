@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap");
+
+:root {
+  --first-color: rgb(241, 103, 24);
+  --second-color: rgb(255, 155, 98);
+  --third-color: rgb(22, 37, 66);
+  --fourth-color: rgb(123, 139, 173);
+  --fifth-color: rgb(232, 239, 242);
+  --white-color: rgb(255, 255, 255);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1REM = 10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  margin: 0;
+}
+
+/* Globals */
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+p {
+  margin: 0;
+}
+h1 {
+  font-size: 5.6rem;
+  line-height: 5.6rem;
+}
+h2 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+h3 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
 }
