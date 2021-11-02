@@ -21,3 +21,10 @@
   background-color: var(--third-color);
   color: var(--white-color);
 }
+
+/* Tablet */
+@media (min-width: 768px) {
+  .header {
+    margin-bottom: 6.2rem;
+  }
+}

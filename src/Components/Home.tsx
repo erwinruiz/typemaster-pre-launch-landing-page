@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Feature from "./Feature";
 import classes from "./Home.module.css";
 import features from "../db/features";
+import Images from "../Utilities/Images";
 
 function Home() {
   return (
@@ -19,26 +20,7 @@ function Home() {
               <p>Release on 5/27</p>
             </div>
           </div>
-          <img
-            className={classes.keyboard}
-            src="./assets/mobile/image-keyboard.jpg"
-            alt="keyboard"
-          />
-          <div className={classes["column-images"]}>
-            <img
-              className={classes["glass-and-keyboard"]}
-              src="./assets/mobile/image-glass-and-keyboard.jpg"
-              alt="glass and keyboard"
-            />
-            <div className={classes["image-layer"]}>
-              <img
-                className={classes["phone-and-keyboard"]}
-                src="./assets/mobile/image-phone-and-keyboard.jpg"
-                alt="phone and keyboard"
-              />
-              <div className={classes.layer} />
-            </div>
-          </div>
+          <Images />
         </section>
         <section className={classes["second-section"]}>
           <div className={classes["text-content"]}>

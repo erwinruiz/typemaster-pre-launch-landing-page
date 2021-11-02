@@ -13,9 +13,22 @@
 }
 .feature .title {
   color: var(--third-color);
-  width: 20rem;
+  width: 19rem;
   margin: 0 auto 2.4rem;
 }
 .feature .text {
   color: var(--fourth-color);
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .feature {
+    text-align: left;
+  }
+  .icon-container {
+    margin: 0 0 4rem;
+  }
+  .feature .title {
+    margin: 0 0 2.4rem;
+  }
 }

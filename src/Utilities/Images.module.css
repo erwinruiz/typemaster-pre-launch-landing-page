@@ -1,0 +1,73 @@
+.tablet {
+  display: none;
+}
+.keyboard,
+.glass-and-keyboard,
+.phone-and-keyboard,
+.layer {
+  border-radius: 2rem;
+}
+.keyboard {
+  height: 33.1rem;
+  width: 37.2rem;
+  margin-bottom: 2.4rem;
+}
+.phone-and-keyboard {
+  height: 19.3rem;
+  width: 12.9rem;
+}
+.glass-and-keyboard {
+  height: 19.3rem;
+  width: 22rem;
+}
+.column-images {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 2.4rem;
+}
+.image-layer {
+  position: relative;
+}
+.image-layer img {
+  opacity: 0.75;
+}
+.column-images .layer {
+  position: absolute;
+  background-color: var(--first-color);
+  mix-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  height: 19.3rem;
+  width: 12.9rem;
+}
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  .tablet {
+    display: initial;
+  }
+  .keyboard {
+    height: 42.5rem;
+    width: 47.8rem;
+    margin-bottom: 0;
+  }
+  .phone-and-keyboard {
+    height: 32rem;
+    width: 21.4rem;
+  }
+  .glass-and-keyboard {
+    height: 32rem;
+    width: 44.5rem;
+  }
+  .column-images {
+    column-gap: 3rem;
+    grid-column: 1 / 3;
+    margin-right: auto;
+  }
+  .column-images .layer {
+    height: 32rem;
+    width: 21.4rem;
+  }
+}
