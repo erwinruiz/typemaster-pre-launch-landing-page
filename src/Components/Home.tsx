@@ -20,9 +20,10 @@ function Home() {
               <p>Release on 5/27</p>
             </div>
           </div>
-          <Images />
+          <Images isFirstImage={true} />
         </section>
         <section className={classes["second-section"]}>
+          <Images isFirstImage={false} />
           <div className={classes["text-content"]}>
             <h2 className={classes.title}>Mechanical wireless keyboard</h2>
             <p className={classes.text}>
@@ -31,6 +32,8 @@ function Home() {
               with reliable wireless connectivity.
             </p>
           </div>
+        </section>
+        <section className={classes["third-section"]}>
           <div className={classes["features-container"]}>
             {features.map((feature, i) => (
               <Feature
