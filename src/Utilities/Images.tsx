@@ -21,6 +21,12 @@ const Images = ({ isFirstImage }: Img) => {
           src="./assets/tablet/image-keyboard.jpg"
           alt="keyboard"
         />
+        {/* Desktop */}
+        <img
+          className={`${classes.desktop} ${classes.keyboard}`}
+          src="./assets/desktop/image-keyboard.jpg"
+          alt="keyboard"
+        />
       </Fragment>
     );
   } else {
@@ -39,7 +45,14 @@ const Images = ({ isFirstImage }: Img) => {
             src="./assets/tablet/image-glass-and-keyboard.jpg"
             alt="glass and keyboard"
           />
+          {/* Desktop */}
+          <img
+            className={`${classes.desktop} ${classes["glass-and-keyboard"]}`}
+            src="./assets/desktop/image-glass-and-keyboard.jpg"
+            alt="glass and keyboard"
+          />
           <div className={classes["image-layer"]}>
+            {/* Mobile */}
             <img
               className={`${classes.mobile} ${classes["phone-and-keyboard"]}`}
               src="./assets/mobile/image-phone-and-keyboard.jpg"
@@ -49,6 +62,12 @@ const Images = ({ isFirstImage }: Img) => {
             <img
               className={`${classes.tablet} ${classes["phone-and-keyboard"]}`}
               src="./assets/tablet/image-phone-and-keyboard.jpg"
+              alt="phone and keyboard"
+            />
+            {/* Desktop */}
+            <img
+              className={`${classes.desktop} ${classes["phone-and-keyboard"]}`}
+              src="./assets/desktop/image-phone-and-keyboard.jpg"
               alt="phone and keyboard"
             />
             <div className={classes.layer} />

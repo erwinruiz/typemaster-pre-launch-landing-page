@@ -1,11 +1,23 @@
 .container {
   padding: 2.4rem;
   overflow-x: hidden;
+  max-width: 144rem;
+  margin: 0 auto;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
   .container {
     padding: 4rem;
+  }
+}
+
+/* Desktop - widescreen */
+@media (min-width: 1440px) {
+  .container {
+    padding: 5.5rem 16.5rem 3.9rem;
+    background: url("./assets/pattern-square.svg") no-repeat calc(100% + 12rem)
+        19.6rem / 25.5rem 23.6rem,
+      url("./assets/pattern-square.svg") no-repeat -12rem 95rem / 25.5rem 23.6rem;
   }
 }
