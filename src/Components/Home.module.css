@@ -126,10 +126,15 @@
   .first-section {
     grid-template-columns: 44rem auto;
     column-gap: 12.5rem;
+    align-items: flex-start;
     margin-bottom: 3rem;
+  }
+  .first-section .text-content {
+    margin-top: 6rem;
   }
   .first-section .title {
     font-size: 5.6rem;
+    line-height: 5.6rem;
     margin-bottom: 2.4rem;
   }
   .first-section .text {
