@@ -41,6 +41,7 @@
   width: 12.9rem;
 }
 
+/* Tablet */
 @media (min-width: 768px) {
   .mobile {
     display: none;

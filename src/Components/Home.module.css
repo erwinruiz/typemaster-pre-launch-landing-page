@@ -54,6 +54,7 @@
 .second-section .text {
   color: var(--fourth-color);
 }
+/* Third Section */
 .third-section .features-container {
   display: flex;
   flex-direction: column;
@@ -78,30 +79,35 @@
   /* First Section */
   .first-section {
     display: grid;
-    grid-template-columns: 50% 50%;
-    margin-bottom: 7.2rem;
-    column-gap: 6rem;
-    row-gap: 4rem;
+    grid-template-columns: 33.8rem 28.1rem;
+    align-items: center;
+    column-gap: 6.9rem;
+    margin-bottom: 4rem;
   }
   .first-section .bottom-content {
-    column-gap: 3.7rem;
+    column-gap: 3.6rem;
+    margin-bottom: 0;
   }
   .bottom-content button {
     height: 5.8rem;
     width: 17.5rem;
   }
   /* Second Section */
+  .second-section {
+    row-gap: 7.2rem;
+    margin-bottom: 14.2rem;
+  }
   .second-section .text-content {
     display: flex;
     align-items: center;
-    column-gap: 9rem;
+    column-gap: 9.2rem;
     text-align: left;
-    margin-bottom: 14.2rem;
   }
   .second-section .title {
     margin-bottom: 0;
   }
-  .second-section .features-container {
+  /* Third Section */
+  .third-section .features-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 6.9rem;

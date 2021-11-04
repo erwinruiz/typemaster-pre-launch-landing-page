@@ -9,7 +9,7 @@ function Home() {
     <Fragment>
       <main>
         <section className={classes["first-section"]}>
-          <div>
+          <div className={classes['text-content']}>
             <h1 className={classes.title}>Typemaster keyboard</h1>
             <p className={classes.text}>
               Improve your productivity and gaming without breaking the bank.
