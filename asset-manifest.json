@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/typemaster-pre-launch-landing-page/static/css/main.f0e3ba2d.chunk.css",
+    "main.css": "/typemaster-pre-launch-landing-page/static/css/main.3b9b80a6.chunk.css",
     "main.js": "/typemaster-pre-launch-landing-page/static/js/main.526af946.chunk.js",
     "main.js.map": "/typemaster-pre-launch-landing-page/static/js/main.526af946.chunk.js.map",
     "runtime-main.js": "/typemaster-pre-launch-landing-page/static/js/runtime-main.aa6f683e.js",
@@ -10,14 +10,14 @@
     "static/js/3.a58f5969.chunk.js": "/typemaster-pre-launch-landing-page/static/js/3.a58f5969.chunk.js",
     "static/js/3.a58f5969.chunk.js.map": "/typemaster-pre-launch-landing-page/static/js/3.a58f5969.chunk.js.map",
     "index.html": "/typemaster-pre-launch-landing-page/index.html",
-    "static/css/main.f0e3ba2d.chunk.css.map": "/typemaster-pre-launch-landing-page/static/css/main.f0e3ba2d.chunk.css.map",
+    "static/css/main.3b9b80a6.chunk.css.map": "/typemaster-pre-launch-landing-page/static/css/main.3b9b80a6.chunk.css.map",
     "static/js/2.2ae4c368.chunk.js.LICENSE.txt": "/typemaster-pre-launch-landing-page/static/js/2.2ae4c368.chunk.js.LICENSE.txt",
     "static/media/App.module.css": "/typemaster-pre-launch-landing-page/static/media/pattern-square.c15c4033.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.aa6f683e.js",
     "static/js/2.2ae4c368.chunk.js",
-    "static/css/main.f0e3ba2d.chunk.css",
+    "static/css/main.3b9b80a6.chunk.css",
     "static/js/main.526af946.chunk.js"
   ]
 }
